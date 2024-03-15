@@ -25,7 +25,7 @@ describe("some unit", () => {
   });
 
   describe("unit b", () => {
-    it("should validate description length being too long", () => {
+    it("should validate description length as being too long", () => {
       expect(descriptionValid(myComponent)).toBeFalsy();
     });
   });
